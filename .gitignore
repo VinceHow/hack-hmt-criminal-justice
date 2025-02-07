@@ -1,6 +1,9 @@
 # data
 data/*
 
+london-criminal-syndicate/data/*
+london-criminal-syndicate/.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
