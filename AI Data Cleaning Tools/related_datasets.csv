@@ -1,0 +1,642 @@
+file_name,file_id,file_size,file_path,csv_title,active_row_number,active_column_number,dataset_description,dataset_column_names,time_coverage_start,time_coverage_end,geo_coverage,dataset_topic,dataset_aggregation,csv_example,clean_csv_path,text_header,csv_processing,full_description
+CJS_overview/cjs-overview-tables-June-2024.ods,0x8DD46BBB6AF20D4,125388,../data/cjs-overview-tables-June-2024.ods,Contents,3,0,"The dataset contains statistical tables related to criminal justice in England and Wales, including information on offenders, defendants, convictions, and sentencing. It provides detailed breakdowns by offense type, custody rates, and other metrics.","['Table of contents', 'Description']",2023-Q1,2023-Q4,"['England', 'Wales']","Criminal justice statistics, including offenders, convictions, and sentencing in England and Wales.","The dataset aggregates data by offense type, custody rates, sentencing outcomes, and other metrics, providing quarterly statistics for the year 2023.","  Table of contents                                        Description
+3              Q1_1  Table Q1.1 - Individuals entering the Criminal...
+4              Q1_2  Table Q1.2 - Recorded crime and notifiable off...
+5              Q1_3  Table Q1.3 - Individuals entering the criminal...
+6              Q1_4  Table Q1.4 - Quarterly out of court disposal, ...
+7              Q2_1  Table Q2.1 - Number of offenders issued a Pena...",../data/clean_csv/cjs-overview-tables-June-2024.ods_Contents.csv,This worksheet contains one table. nan Sheet name Sheet title Notes Notes used in the statistical tables of this workbook,columns set,"The dataset in document CJS_overview/cjs-overview-tables-June-2024.ods contains information about Criminal justice statistics, including offenders, convictions, and sentencing in England and Wales. from 2023-Q1 to 2023-Q4. The dataset covers the following regions: England, Wales. The dataset has the following columns: Table of contents, Description. The dataset has the following aggregations: The dataset aggregates data by offense type, custody rates, sentencing outcomes, and other metrics, providing quarterly statistics for the year 2023.. The dataset has the following description: The dataset contains statistical tables related to criminal justice in England and Wales, including information on offenders, defendants, convictions, and sentencing. It provides detailed breakdowns by offense type, custody rates, and other metrics."
+CJS_overview/cjs-overview-tables-June-2024.ods,0x8DD46BBB6AF20D4,125388,../data/cjs-overview-tables-June-2024.ods,Q1_1,3,1,"The dataset provides statistics on individuals entering the Criminal Justice System in England and Wales over a 10-year period, from the 12 months ending June 2014 to the 12 months ending June 2024. It includes data on various stages of the justice process, such as out-of-court disposals, defendants proceeded against, offenders convicted, and prison receptions.","['Category', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', 'Percentage Change']",2014-Q2,2024-Q2,"['England', 'Wales']",Statistics on individuals entering the Criminal Justice System in England and Wales.,"The dataset aggregates data by year and category, covering various stages of the justice process, such as out-of-court disposals, convictions, and prison receptions. It also includes percentage changes over time.","                                           Category    2014      2015  \
+3           Out of court disposals (OOCDs) [note 6]  246665  343404.0   
+4               OOCDs: penalty notices for disorder   72800   56260.0   
+5                                   OOCDs: cautions  173865  140219.0   
+6  OOCDs: cannabis / khat warnings [note 7][note 8]     [x]   40813.0   
+7     OOCDs: community resolutions [note 8][note 9]     [x]  106112.0   
+
+       2016      2017      2018      2019      2020      2021      2022  \
+3  299617.0  255167.0  223528.0  212039.0  219362.0  203234.0  201405.0   
+4   41825.0   30509.0   22868.0   20661.0   18412.0   13954.0   12658.0   
+5  114301.0   93333.0   75399.0   66316.0   59421.0   52491.0   49728.0   
+6   35011.0   31436.0   29121.0   19728.0   17455.0   12631.0    5517.0   
+7  108480.0   99889.0   96140.0  105334.0  124074.0  124158.0  133502.0   
+
+       2023      2024    Percentage Change  
+3  197461.0  195152.0   -0.011693448326505  
+4    8398.0    5656.0   -0.326506311026435  
+5   45855.0   44238.0  -0.0352633300621524  
+6    3090.0    1285.0   -0.584142394822006  
+7  140118.0  143973.0   0.0275125251573674  ",../data/clean_csv/cjs-overview-tables-June-2024.ods_Q1_1.csv,"This worksheet contains one table. nan nan nan nan nan nan nan nan nan nan nan nan Source: Ministry of Justice Court Proceedings Database, Offender Management Statistics Quarterly (Prison receptions: Table 2.5b and Probation: Table 4.1) and Home Office open data tables nan nan nan nan nan nan nan nan nan nan nan nan Overview 2014 2015.0 2016.0 2017.0 2018.0 2019.0 2020.0 2021.0 2022.0 2023.0 2024.0 Percentage change 12 months ending June 2023 to June 2024",columns set,"The dataset in document CJS_overview/cjs-overview-tables-June-2024.ods contains information about Statistics on individuals entering the Criminal Justice System in England and Wales. from 2014-Q2 to 2024-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: Category, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, Percentage Change. The dataset has the following aggregations: The dataset aggregates data by year and category, covering various stages of the justice process, such as out-of-court disposals, convictions, and prison receptions. It also includes percentage changes over time.. The dataset has the following description: The dataset provides statistics on individuals entering the Criminal Justice System in England and Wales over a 10-year period, from the 12 months ending June 2014 to the 12 months ending June 2024. It includes data on various stages of the justice process, such as out-of-court disposals, defendants proceeded against, offenders convicted, and prison receptions."
+CJS_overview/cjs-overview-tables-June-2024.ods,0x8DD46BBB6AF20D4,125388,../data/cjs-overview-tables-June-2024.ods,Q1_3,3,0,"The dataset provides information on individuals entering the criminal justice system in England and Wales, categorized by offence group and outcome, for the 12 months ending June 2023 to the 12 months ending June 2024. It includes various metrics such as offence types, outcomes, and sentencing details.","['Offence type [note 10]', 'Offence Group', 'Year', 'Cannabis/Khat Warnings', 'Penalty Notices for Disorder', 'Community Resolutions', 'Cautions', 'Proceeded Against', 'Convicted', 'Sentenced Total', 'Sentenced: Discharged', 'Sentenced: Fine', 'Sentenced: Community Sentence', 'Sentenced: Suspended Sentence', 'Sentenced: Compensation', 'Sentenced: Otherwise Dealt With', 'Sentenced: Disposal Not Known', 'Sentenced: Custody', 'Custody Rate (%)', 'Average Custodial Sentence Length']",2023-Q3,2024-Q2,"['England', 'Wales']","The dataset focuses on criminal justice system entries, categorized by offence type and outcomes, including sentencing details.","The dataset aggregates data by offence group, year, and various outcomes such as convictions, sentencing types, and custody rates.","   Offence type [note 10]                Offence Group  Year  \
+3  Offence type [note 10]                Offence group  Year   
+4              Indictable    Indictable offences total  2023   
+5              Indictable    Indictable offences total  2024   
+6              Indictable  Violence against the person  2023   
+7              Indictable  Violence against the person  2024   
+
+                       Cannabis/Khat Warnings  \
+3  Cannabis / khat warnings [notes 6][note 7]   
+4                                        3345   
+5                                        1438   
+6                                         [z]   
+7                                         [z]   
+
+            Penalty Notices for Disorder  \
+3  Penalty notices for disorder [note 6]   
+4                                    [z]   
+5                                    [z]   
+6                                    [z]   
+7                                    [z]   
+
+                     Community Resolutions           Cautions  \
+3  Community resolutions [notes 6][note 9]  Cautions [note 6]   
+4                                   145335                [z]   
+5                                   151072                [z]   
+6                                    42799               5420   
+7                                    47307               4662   
+
+            Proceeded Against           Convicted            Sentenced Total  \
+3  Proceeded against [note 5]  Convicted [note 5]  Sentenced total [note 11]   
+4                      213543              177103                     176776   
+5                      251879              203856                     201983   
+6                       52393               39686                      39491   
+7                       61774               43865                      43685   
+
+             Sentenced: Discharged  Sentenced: Fine  \
+3  Sentenced: discharged [note 25]  Sentenced: fine   
+4                            11854            27730   
+5                            13175            30900   
+6                             1675             4014   
+7                             1640             4396   
+
+             Sentenced: Community Sentence Sentenced: Suspended Sentence  \
+3  Sentenced: community sentence [note 13]  Sentence: suspended sentence   
+4                                    39321                         33404   
+5                                    43879                         38906   
+6                                    10469                          8353   
+7                                    11290                          9629   
+
+   Sentenced: Compensation            Sentenced: Otherwise Dealt With  \
+3  Sentenced: compensation  Sentenced: otherwise dealt with [note 26]   
+4                     1429                                       4284   
+5                     2192                                       6035   
+6                      261                                        462   
+7                      272                                        574   
+
+   Sentenced: Disposal Not Known            Sentenced: Custody  \
+3  Sentenced: disposal not known  Sentenced: custody [note 12]   
+4                              0                         58754   
+5                              1                         66895   
+6                              0                         14257   
+7                              1                         15883   
+
+             Custody Rate (%)            Average Custodial Sentence Length  
+3  Custody Rate (%) [note 27]  Average Custodial Sentence Length [note 15]  
+4                       0.331                                         22.8  
+5                        0.33                                         22.5  
+6                       0.361                                         20.8  
+7                       0.364                                         21.1  ",../data/clean_csv/cjs-overview-tables-June-2024.ods_Q1_3.csv,"This worksheet contains one table. nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan This table contains notes, which can be found in the Notes worksheet. nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan Source: Ministry of Justice Court Proceedings Database and Home Office open data tables (recorded crime, cannabis/khat warnings, community resolutions and offences taken into consideration) nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan",columns set,"The dataset in document CJS_overview/cjs-overview-tables-June-2024.ods contains information about The dataset focuses on criminal justice system entries, categorized by offence type and outcomes, including sentencing details. from 2023-Q3 to 2024-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: Offence type [note 10], Offence Group, Year, Cannabis/Khat Warnings, Penalty Notices for Disorder, Community Resolutions, Cautions, Proceeded Against, Convicted, Sentenced Total, Sentenced: Discharged, Sentenced: Fine, Sentenced: Community Sentence, Sentenced: Suspended Sentence, Sentenced: Compensation, Sentenced: Otherwise Dealt With, Sentenced: Disposal Not Known, Sentenced: Custody, Custody Rate (%), Average Custodial Sentence Length. The dataset has the following aggregations: The dataset aggregates data by offence group, year, and various outcomes such as convictions, sentencing types, and custody rates.. The dataset has the following description: The dataset provides information on individuals entering the criminal justice system in England and Wales, categorized by offence group and outcome, for the 12 months ending June 2023 to the 12 months ending June 2024. It includes various metrics such as offence types, outcomes, and sentencing details."
+CJS_overview/cjs-overview-tables-June-2024.ods,0x8DD46BBB6AF20D4,125388,../data/cjs-overview-tables-June-2024.ods,Q1_4,2,0,"The dataset provides quarterly statistics on out-of-court disposals, prosecutions, convictions, and sentencing outcomes in England and Wales for the 12 months ending June 2023 and June 2024. It includes data on various types of offenses, offender outcomes, and average custodial sentence lengths.","['Category', 'Jul to Sep 2022', 'Oct to Dec 2022', 'Jan to Mar 2023', 'Apr to Jun 2023', 'Jul to Sep 2023', 'Oct to Dec 2023', 'Jan to Mar 2024', 'Apr to Jun 2024']",2022-Q3,2024-Q2,"['England', 'Wales']","Quarterly statistics on criminal justice outcomes, including out-of-court disposals, prosecutions, convictions, and sentencing.","The dataset aggregates data by offense type, offender outcomes, and time periods (quarters) over a two-year span.","                                           Category  Jul to Sep 2022  \
+2                                          Overview  Jul to Sep 2022   
+3           Out of court disposals (OOCDs) [note 6]            51188   
+4               OOCDs: penalty notices for disorder             2331   
+5                                   OOCDs: cautions            12053   
+6  OOCDs: cannabis / khat warnings [note 7][note 8]              980   
+
+   Oct to Dec 2022  Jan to Mar 2023  Apr to Jun 2023  Jul to Sep 2023  \
+2  Oct to Dec 2022  Jan to Mar 2023  Apr to Jun 2023  Jul to Sep 2023   
+3            50229            51620            49896            50697   
+4             2178             2047             1842             1827   
+5            11533            11249            11020            10981   
+6              939              829              597              543   
+
+   Oct to Dec 2023  Jan to Mar 2024  Apr to Jun 2024  
+2  Oct to Dec 2023  Jan to Mar 2024  Apr to Jun 2024  
+3            49602            51818            50287  
+4             1504             1173             1152  
+5            10986            11128            11143  
+6              395              289              211  ",../data/clean_csv/cjs-overview-tables-June-2024.ods_Q1_4.csv,This worksheet contains one table. nan nan nan nan nan nan nan nan Source: Ministry of Justice Court Proceedings Database and Home Office open data tables (cannabis/khat warnings and community resolutions) nan nan nan nan nan nan nan nan,columns set,"The dataset in document CJS_overview/cjs-overview-tables-June-2024.ods contains information about Quarterly statistics on criminal justice outcomes, including out-of-court disposals, prosecutions, convictions, and sentencing. from 2022-Q3 to 2024-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: Category, Jul to Sep 2022, Oct to Dec 2022, Jan to Mar 2023, Apr to Jun 2023, Jul to Sep 2023, Oct to Dec 2023, Jan to Mar 2024, Apr to Jun 2024. The dataset has the following aggregations: The dataset aggregates data by offense type, offender outcomes, and time periods (quarters) over a two-year span.. The dataset has the following description: The dataset provides quarterly statistics on out-of-court disposals, prosecutions, convictions, and sentencing outcomes in England and Wales for the 12 months ending June 2023 and June 2024. It includes data on various types of offenses, offender outcomes, and average custodial sentence lengths."
+CJS_overview/cjs-overview-tables-June-2024.ods,0x8DD46BBB6AF20D4,125388,../data/cjs-overview-tables-June-2024.ods,Q5_1a,3,0,"The dataset provides information on the number of offenders sentenced at criminal courts in England and Wales, categorized by offence type and sentence outcome, covering the period from the 12 months ending June 2014 to the 12 months ending June 2024.","['Offence Type', 'Type of Sentence', '2014-Q2', '2015-Q2', '2016-Q2', '2017-Q2', '2018-Q2', '2019-Q2', '2020-Q2', '2021-Q2', '2022-Q2', '2023-Q2', '2024-Q2']",2014-Q2,2024-Q2,"['England', 'Wales']",Sentencing outcomes at criminal courts by offence type in England and Wales.,"The dataset aggregates data by offence type, sentence outcome, and year-quarter time periods, providing counts and averages for various sentencing categories.","             Offence Type              Type of Sentence  2014-Q2  2015-Q2  \
+3  Offence type [note 10]              Type of sentence     2014     2015   
+4       All offence types               Sentenced total  1183054  1237267   
+5       All offence types   Immediate custody [note 12]    92650    90601   
+6       All offence types            Suspended sentence    51492    55291   
+7       All offence types  Community sentence [note 13]   116288   109193   
+
+   2016-Q2  2017-Q2  2018-Q2  2019-Q2 2020-Q2 2021-Q2  2022-Q2  2023-Q2  \
+3     2016     2017     2018     2019    2020    2021     2022     2023   
+4  1259391  1230770  1205168  1190379  979085  909947  1002835  1081486   
+5    90826    90128    86630    80256   67291   63305    65227    66682   
+6    57260    56554    50801    40897   34779   43537    42324    40850   
+7   106742    98362    92532    91403   66259   74153    70561    68402   
+
+   2024-Q2  
+3     2024  
+4  1147774  
+5    75342  
+6    46365  
+7    73425  ",../data/clean_csv/cjs-overview-tables-June-2024.ods_Q5_1a.csv,"This worksheet contains one table. nan nan nan nan nan nan nan nan nan nan nan nan This table contains notes, which can be found in the Notes worksheet. nan nan nan nan nan nan nan nan nan nan nan nan Source: Ministry of Justice Court Proceedings Database nan nan nan nan nan nan nan nan nan nan nan nan",columns set,"The dataset in document CJS_overview/cjs-overview-tables-June-2024.ods contains information about Sentencing outcomes at criminal courts by offence type in England and Wales. from 2014-Q2 to 2024-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: Offence Type, Type of Sentence, 2014-Q2, 2015-Q2, 2016-Q2, 2017-Q2, 2018-Q2, 2019-Q2, 2020-Q2, 2021-Q2, 2022-Q2, 2023-Q2, 2024-Q2. The dataset has the following aggregations: The dataset aggregates data by offence type, sentence outcome, and year-quarter time periods, providing counts and averages for various sentencing categories.. The dataset has the following description: The dataset provides information on the number of offenders sentenced at criminal courts in England and Wales, categorized by offence type and sentence outcome, covering the period from the 12 months ending June 2014 to the 12 months ending June 2024."
+CJS_overview/cjs-overview-tables-June-2024.ods,0x8DD46BBB6AF20D4,125388,../data/cjs-overview-tables-June-2024.ods,Q5_1b,3,0,"The dataset provides the number of offenders (excluding companies, public bodies, etc.) sentenced at criminal courts in England and Wales, categorized by offence type and sentence outcome, covering the period from June 2014 to June 2024. It includes various sentencing outcomes such as immediate custody, suspended sentences, fines, and more.","['Offence Type', 'Type of Sentence', '2014-Q2', '2015-Q2', '2016-Q2', '2017-Q2', '2018-Q2', '2019-Q2', '2020-Q2', '2021-Q2', '2022-Q2', '2023-Q2', '2024-Q2']",2014-Q2,2024-Q2,"['England', 'Wales']",Sentencing outcomes for offenders in criminal courts by offence type and time period.,"The dataset aggregates the number of offenders sentenced by offence type and sentencing outcome, broken down annually over a 10-year period.","             Offence Type              Type of Sentence    2014-Q2    2015-Q2  \
+3  Offence type [note 10]              Type of sentence     2014.0     2015.0   
+4       All offence types               Sentenced total  1176597.0  1230092.0   
+5       All offence types   Immediate custody [note 12]    92650.0    90601.0   
+6       All offence types            Suspended sentence    51492.0    55291.0   
+7       All offence types  Community sentence [note 13]   116288.0   109193.0   
+
+     2016-Q2    2017-Q2    2018-Q2    2019-Q2   2020-Q2   2021-Q2   2022-Q2  \
+3     2016.0     2017.0     2018.0     2019.0    2020.0    2021.0    2022.0   
+4  1250748.0  1221419.0  1195614.0  1181954.0  972442.0  903839.0  994173.0   
+5    90826.0    90128.0    86630.0    80254.0   67288.0   63304.0   65227.0   
+6    57260.0    56553.0    50799.0    40897.0   34778.0   43535.0   42322.0   
+7   106742.0    98362.0    92531.0    91403.0   66257.0   74151.0   70558.0   
+
+     2023-Q2    2024-Q2  
+3     2023.0     2024.0  
+4  1074208.0  1138624.0  
+5    66682.0    75342.0  
+6    40848.0    46365.0  
+7    68401.0    73425.0  ",../data/clean_csv/cjs-overview-tables-June-2024.ods_Q5_1b.csv,"This worksheet contains one table. nan nan nan nan nan nan nan nan nan nan nan nan This table contains notes, which can be found in the Notes worksheet. nan nan nan nan nan nan nan nan nan nan nan nan Source: Ministry of Justice Court Proceedings Database nan nan nan nan nan nan nan nan nan nan nan nan",columns set,"The dataset in document CJS_overview/cjs-overview-tables-June-2024.ods contains information about Sentencing outcomes for offenders in criminal courts by offence type and time period. from 2014-Q2 to 2024-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: Offence Type, Type of Sentence, 2014-Q2, 2015-Q2, 2016-Q2, 2017-Q2, 2018-Q2, 2019-Q2, 2020-Q2, 2021-Q2, 2022-Q2, 2023-Q2, 2024-Q2. The dataset has the following aggregations: The dataset aggregates the number of offenders sentenced by offence type and sentencing outcome, broken down annually over a 10-year period.. The dataset has the following description: The dataset provides the number of offenders (excluding companies, public bodies, etc.) sentenced at criminal courts in England and Wales, categorized by offence type and sentence outcome, covering the period from June 2014 to June 2024. It includes various sentencing outcomes such as immediate custody, suspended sentences, fines, and more."
+CJS_overview/cjs-overview-tables-June-2024.ods,0x8DD46BBB6AF20D4,125388,../data/cjs-overview-tables-June-2024.ods,Q5_2a,3,1,"The dataset provides the number of offenders sentenced to immediate custody at criminal courts in England and Wales, categorized by offence group, for the 12-month periods ending June 2014 to June 2024. It includes detailed breakdowns by offence type and year.","['Offence type [note 10]', 'Offence Group', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024']",2014-Q2,2024-Q2,"['England', 'Wales']","The dataset focuses on the sentencing of offenders to immediate custody at criminal courts, categorized by offence group and year.","The dataset aggregates the number of offenders sentenced to immediate custody by offence group and year, with totals for all offence types and subcategories such as indictable offences, summary offences, and specific offence types.","   Offence type [note 10]                Offence Group   2014   2015   2016  \
+3  Offence type [note 10]                Offence group   2014   2015   2016   
+4              Indictable    Indictable offences total  77476  75188  74707   
+5              Indictable  Violence against the person  10629  11567  12057   
+6              Indictable              Sexual offences   3533   3957   4257   
+7              Indictable                      Robbery   3954   3565   3024   
+
+    2017   2018   2019   2020   2021   2022   2023   2024  
+3   2017   2018   2019   2020   2021   2022   2023   2024  
+4  75319  73132  68713  58432  54815  56691  58754  66895  
+5  12199  12723  12895  13024  14356  14360  14257  15883  
+6   4520   4323   3318   2535   2811   3788   3808   4253  
+7   2865   2907   2799   2367   2019   1793   1946   1888  ",../data/clean_csv/cjs-overview-tables-June-2024.ods_Q5_2a.csv,"This worksheet contains one table. nan nan nan nan nan nan nan nan nan nan nan nan This table contains notes, which can be found in the Notes worksheet. nan nan nan nan nan nan nan nan nan nan nan nan Source: Ministry of Justice Court Proceedings Database nan nan nan nan nan nan nan nan nan nan nan nan",columns set,"The dataset in document CJS_overview/cjs-overview-tables-June-2024.ods contains information about The dataset focuses on the sentencing of offenders to immediate custody at criminal courts, categorized by offence group and year. from 2014-Q2 to 2024-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: Offence type [note 10], Offence Group, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024. The dataset has the following aggregations: The dataset aggregates the number of offenders sentenced to immediate custody by offence group and year, with totals for all offence types and subcategories such as indictable offences, summary offences, and specific offence types.. The dataset has the following description: The dataset provides the number of offenders sentenced to immediate custody at criminal courts in England and Wales, categorized by offence group, for the 12-month periods ending June 2014 to June 2024. It includes detailed breakdowns by offence type and year."
+CJS_overview/cjs-overview-tables-June-2024.ods,0x8DD46BBB6AF20D4,125388,../data/cjs-overview-tables-June-2024.ods,Q5_2b,3,0,"The dataset provides custody rates (%) at criminal courts in England and Wales, categorized by offence groups, for the 12-month periods from June 2014 to June 2024. It includes detailed breakdowns by offence type and aggregates for all offence types.","['Offence type [note 10]', 'Offence Group', '2014-Q2', '2015-Q2', '2016-Q2', '2017-Q2', '2018-Q2', '2019-Q2', '2020-Q2', '2021-Q2', '2022-Q2', '2023-Q2', '2024-Q2']",2014-Q2,2024-Q2,"['England', 'Wales']",Custody rates at criminal courts by offence group over time.,The dataset aggregates custody rates by offence group and provides yearly custody rate trends for each offence type and overall offence categories.,"   Offence type [note 10]                Offence Group 2014-Q2 2015-Q2  \
+3  Offence type [note 10]                Offence group    2014    2015   
+4              Indictable    Indictable offences total   0.269   0.275   
+5              Indictable  Violence against the person   0.423   0.415   
+6              Indictable              Sexual offences     0.6     0.6   
+7              Indictable                      Robbery   0.641   0.682   
+
+  2016-Q2 2017-Q2 2018-Q2 2019-Q2 2020-Q2 2021-Q2 2022-Q2 2023-Q2 2024-Q2  
+3    2016    2017    2018    2019    2020    2021    2022    2023    2024  
+4   0.295   0.313    0.33   0.328   0.344   0.298   0.327   0.331    0.33  
+5   0.404   0.412    0.43   0.396   0.402   0.357   0.363   0.361   0.364  
+6   0.591   0.596   0.627   0.614   0.584   0.543   0.601   0.584   0.564  
+7   0.691   0.699   0.697   0.685   0.643   0.545   0.597   0.609   0.564  ",../data/clean_csv/cjs-overview-tables-June-2024.ods_Q5_2b.csv,"This worksheet contains one table. nan nan nan nan nan nan nan nan nan nan nan nan This table contains notes, which can be found in the Notes worksheet. nan nan nan nan nan nan nan nan nan nan nan nan Source: Ministry of Justice Court Proceedings Database nan nan nan nan nan nan nan nan nan nan nan nan",columns set,"The dataset in document CJS_overview/cjs-overview-tables-June-2024.ods contains information about Custody rates at criminal courts by offence group over time. from 2014-Q2 to 2024-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: Offence type [note 10], Offence Group, 2014-Q2, 2015-Q2, 2016-Q2, 2017-Q2, 2018-Q2, 2019-Q2, 2020-Q2, 2021-Q2, 2022-Q2, 2023-Q2, 2024-Q2. The dataset has the following aggregations: The dataset aggregates custody rates by offence group and provides yearly custody rate trends for each offence type and overall offence categories.. The dataset has the following description: The dataset provides custody rates (%) at criminal courts in England and Wales, categorized by offence groups, for the 12-month periods from June 2014 to June 2024. It includes detailed breakdowns by offence type and aggregates for all offence types."
+CJS_overview/cjs-overview-tables-June-2024.ods,0x8DD46BBB6AF20D4,125388,../data/cjs-overview-tables-June-2024.ods,Q5_2c,3,0,"The dataset provides the average custodial sentence lengths (in months) issued at criminal courts in England and Wales, categorized by offence groups, for the years from June 2014 to June 2024. It includes detailed breakdowns by offence type and summary statistics.","['Offence type [note 10]', 'Offence Group', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024']",2014-Q2,2024-Q2,"['England', 'Wales']",Average custodial sentence lengths by offence group in England and Wales over a 10-year period.,"The dataset aggregates data by offence group and year, providing average custodial sentence lengths for each category.","   Offence type [note 10]                Offence Group  2014  2015  2016  \
+3  Offence type [note 10]                Offence group  2014  2015  2016   
+4              Indictable    Indictable offences total  17.9  19.1  19.2   
+5              Indictable  Violence against the person  23.9  23.5  22.4   
+6              Indictable              Sexual offences  59.5  62.3  61.6   
+7              Indictable                      Robbery  40.3  42.1  43.5   
+
+   2017  2018  2019  2020  2021  2022  2023  2024  
+3  2017  2018  2019  2020  2021  2022  2023  2024  
+4  19.8  21.1  21.3  20.4    21  24.3  22.8  22.5  
+5  23.6  25.5  24.5  21.2  19.3  21.7  20.8  21.1  
+6  61.9  67.3  65.3  65.7  63.2  69.5  66.3  69.5  
+7  47.2  48.7    51    51  45.6    49  47.2  45.2  ",../data/clean_csv/cjs-overview-tables-June-2024.ods_Q5_2c.csv,"This worksheet contains one table. nan nan nan nan nan nan nan nan nan nan nan nan This table contains notes, which can be found in the Notes worksheet. nan nan nan nan nan nan nan nan nan nan nan nan Source: Ministry of Justice Court Proceedings Database nan nan nan nan nan nan nan nan nan nan nan nan",columns set,"The dataset in document CJS_overview/cjs-overview-tables-June-2024.ods contains information about Average custodial sentence lengths by offence group in England and Wales over a 10-year period. from 2014-Q2 to 2024-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: Offence type [note 10], Offence Group, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024. The dataset has the following aggregations: The dataset aggregates data by offence group and year, providing average custodial sentence lengths for each category.. The dataset has the following description: The dataset provides the average custodial sentence lengths (in months) issued at criminal courts in England and Wales, categorized by offence groups, for the years from June 2014 to June 2024. It includes detailed breakdowns by offence type and summary statistics."
+CJS_overview/cjs-overview-tables-June-2024.ods,0x8DD46BBB6AF20D4,125388,../data/cjs-overview-tables-June-2024.ods,Q5_3,2,0,"The dataset provides information on the number of offenders sentenced at criminal courts in England and Wales, categorized by sentence outcomes and offence groups, covering the period from June 2014 to June 2024. It includes detailed breakdowns of offence types, sentencing outcomes, and other related metrics.","['Year', 'Type of sentence', 'Indictable offences total', 'Violence against the person', 'Sexual offences', 'Robbery', 'Theft offences', 'Criminal damage and arson', 'Drug offences', 'Possession of weapons', 'Public order offences', 'Miscellaneous crimes against society', 'Fraud offences', 'Summary offences total', 'Summary non-motoring', 'Summary motoring', 'Offence unknown', 'All offence types total']",2014-Q2,2024-Q2,"['England', 'Wales']",The dataset focuses on criminal court sentencing outcomes and offence group statistics in England and Wales over a ten-year period.,"The dataset aggregates data by year, offence group, and sentencing outcome, providing counts and averages for various metrics such as custodial sentence lengths and total offenders sentenced.","   Year              Type of sentence  Indictable offences total  \
+2  Year              Type of sentence  Indictable offences total   
+3  2014               Sentenced total                     288283   
+4  2014   Immediate custody [note 12]                      77476   
+5  2014            Suspended sentence                      37662   
+6  2014  Community sentence [note 13]                      61380   
+
+   Violence against the person  Sexual offences  Robbery  Theft offences  \
+2  Violence against the person  Sexual offences  Robbery  Theft offences   
+3                        25155             5889     6168          119873   
+4                        10629             3533     3954           31468   
+5                         5970              609      451           11862   
+6                         3721             1389     1625           28911   
+
+   Criminal damage and arson  Drug offences  Possession of weapons  \
+2  Criminal damage and arson  Drug offences  Possession of weapons   
+3                       2991          54098                   9926   
+4                        664           8951                   2626   
+5                        266           5406                   2144   
+6                        964           8176                   3500   
+
+   Public order offences  Miscellaneous crimes against society  \
+2  Public order offences  Miscellaneous crimes against society   
+3                  16922                                 34111   
+4                   4869                                  8350   
+5                   2839                                  4780   
+6                   2521                                  6176   
+
+   Fraud offences  Summary offences total  Summary non-motoring  \
+2  Fraud offences  Summary offences total  Summary non-motoring   
+3           13150                  894771                413787   
+4            2432                   15174                 11981   
+5            3335                   13830                  9806   
+6            4397                   54908                 42534   
+
+   Summary motoring  Offence unknown  All offence types total  
+2  Summary motoring  Offence unknown  All offence types total  
+3            480984                0                  1183054  
+4              3193                0                    92650  
+5              4024                0                    51492  
+6             12374                0                   116288  ",../data/clean_csv/cjs-overview-tables-June-2024.ods_Q5_3.csv,This worksheet contains one table. nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan Source: Ministry of Justice Court Proceedings Database nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan,columns set,"The dataset in document CJS_overview/cjs-overview-tables-June-2024.ods contains information about The dataset focuses on criminal court sentencing outcomes and offence group statistics in England and Wales over a ten-year period. from 2014-Q2 to 2024-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: Year, Type of sentence, Indictable offences total, Violence against the person, Sexual offences, Robbery, Theft offences, Criminal damage and arson, Drug offences, Possession of weapons, Public order offences, Miscellaneous crimes against society, Fraud offences, Summary offences total, Summary non-motoring, Summary motoring, Offence unknown, All offence types total. The dataset has the following aggregations: The dataset aggregates data by year, offence group, and sentencing outcome, providing counts and averages for various metrics such as custodial sentence lengths and total offenders sentenced.. The dataset has the following description: The dataset provides information on the number of offenders sentenced at criminal courts in England and Wales, categorized by sentence outcomes and offence groups, covering the period from June 2014 to June 2024. It includes detailed breakdowns of offence types, sentencing outcomes, and other related metrics."
+CJS_overview/cjs-overview-tables-June-2024.ods,0x8DD46BBB6AF20D4,125388,../data/cjs-overview-tables-June-2024.ods,Q5_4,3,0,"The dataset provides information on the number of offenders sentenced to immediate custody at criminal courts in England and Wales, categorized by offence type and sentence length, over a 10-year period from June 2014 to June 2024. It includes annual data for various sentence lengths and offence types, along with average custodial sentence lengths.","['Offence Type', 'Sentence Length', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024']",2014-Q2,2024-Q2,"['England', 'Wales']","The dataset focuses on sentencing trends for offenders in criminal courts, specifically those sentenced to immediate custody.","The dataset aggregates data by offence type, sentence length, and year, providing counts of offenders and average custodial sentence lengths.","             Offence Type                                 Sentence Length  \
+3  Offence type [note 10]                                 Sentence length   
+4       All offence types            Sentenced to immediate custody total   
+5       All offence types                     Up to and including 1 month   
+6       All offence types   Over 1 month and up to and including 2 months   
+7       All offence types  Over 2 months and up to and including 3 months   
+
+      2014     2015     2016     2017     2018     2019     2020     2021  \
+3   2014.0   2015.0   2016.0   2017.0   2018.0   2019.0   2020.0   2021.0   
+4  92650.0  90601.0  90826.0  90128.0  86630.0  80254.0  67288.0  63304.0   
+5  14409.0  14276.0  14411.0  13988.0  12415.0  10073.0   7811.0   6256.0   
+6  11562.0  11362.0  11330.0  10965.0  10160.0   8943.0   7319.0   6488.0   
+7   9590.0   9189.0   8984.0   8712.0   8410.0   7840.0   6521.0   5953.0   
+
+      2022     2023     2024  
+3   2022.0   2023.0   2024.0  
+4  65227.0  66682.0  75342.0  
+5   6145.0   7071.0   9428.0  
+6   6428.0   6962.0   8399.0  
+7   5755.0   5644.0   6432.0  ",../data/clean_csv/cjs-overview-tables-June-2024.ods_Q5_4.csv,"This worksheet contains one table. nan nan nan nan nan nan nan nan nan nan nan nan This table contains notes, which can be found in the Notes worksheet. nan nan nan nan nan nan nan nan nan nan nan nan Source: Ministry of Justice Court Proceedings Database nan nan nan nan nan nan nan nan nan nan nan nan",columns set,"The dataset in document CJS_overview/cjs-overview-tables-June-2024.ods contains information about The dataset focuses on sentencing trends for offenders in criminal courts, specifically those sentenced to immediate custody. from 2014-Q2 to 2024-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: Offence Type, Sentence Length, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024. The dataset has the following aggregations: The dataset aggregates data by offence type, sentence length, and year, providing counts of offenders and average custodial sentence lengths.. The dataset has the following description: The dataset provides information on the number of offenders sentenced to immediate custody at criminal courts in England and Wales, categorized by offence type and sentence length, over a 10-year period from June 2014 to June 2024. It includes annual data for various sentence lengths and offence types, along with average custodial sentence lengths."
+cps/CPS Caseload/CPS-Court-Caseload-Tables-Q2-24-25.xlsx,0x8DD46BB074A6A51,116131,../data/CPS-Court-Caseload-Tables-Q2-24-25.xlsx,Title,4,2,"The dataset contains information on prosecution outcomes as managed by the Crown Prosecution Service (CPS). It appears to be a quarterly publication with data aggregated over specific time periods, likely covering England and Wales. The dataset may include metrics or statistics related to case management and prosecution outcomes.","[nan, 'Quarter', 'Prosecution Outcomes', 'Additional Information']",2024-Q2,2024-Q2,"['England', 'Wales']",The dataset focuses on prosecution outcomes managed by the Crown Prosecution Service (CPS).,"The dataset is aggregated quarterly, with data grouped by time periods and potentially by case outcomes or other relevant metrics.","   NaN                                            Quarter  \
+0  nan                                                nan   
+1  nan  Crown Prosecution Service Quarterly Data Publi...   
+2  nan                                                nan   
+3  nan  \nSource: Case Management Information System\n...   
+
+  Prosecution Outcomes Additional Information  
+0                  nan                    nan  
+1                  nan               24/25-Q2  
+2                  nan                    nan  
+3                  nan                    nan  ",../data/clean_csv/CPS-Court-Caseload-Tables-Q2-24-25.xlsx_Title.csv,"nan nan nan nan nan Crown Prosecution Service Quarterly Data Publication of prosecutions management information providing the volumes and proportions of prosecution outcomes for the period ending. nan 24/25-Q2 nan nan nan nan nan 
+Source: Case Management Information System
+
+Statistics on referrals, charge rates and prosecutions, convictions and attrition are derived from the CPS Case Management System, which holds pre-charge proceedings data and prosecutions data for magistrates’ courts and the Crown Court. 
+  
+Queries about the quarterly publication may be addressed to: CPS Enquiries <Enquiries@cps.gov.uk>  nan nan",columns set,"The dataset in document cps/CPS Caseload/CPS-Court-Caseload-Tables-Q2-24-25.xlsx contains information about The dataset focuses on prosecution outcomes managed by the Crown Prosecution Service (CPS). from 2024-Q2 to 2024-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: nan, Quarter, Prosecution Outcomes, Additional Information. The dataset has the following aggregations: The dataset is aggregated quarterly, with data grouped by time periods and potentially by case outcomes or other relevant metrics.. The dataset has the following description: The dataset contains information on prosecution outcomes as managed by the Crown Prosecution Service (CPS). It appears to be a quarterly publication with data aggregated over specific time periods, likely covering England and Wales. The dataset may include metrics or statistics related to case management and prosecution outcomes."
+cps/CPS Caseload/CPS-Court-Caseload-Tables-Q2-24-25.xlsx,0x8DD46BB074A6A51,116131,../data/CPS-Court-Caseload-Tables-Q2-24-25.xlsx,Index,1,1,"The dataset contains information on prosecution caseloads in England and Wales, including data for Magistrates Court and Crown Court. It appears to include aggregated data for different types of cases and time periods.","['Time Period', 'Case Type', 'Description']",2023-Q1,2023-Q4,"['England', 'Wales']",Prosecution caseloads in Magistrates and Crown Courts in England and Wales.,"The dataset aggregates data by time periods (quarters) and case types, providing national-level statistics.","  Time Period Case Type                                        Description
+1         nan       1.1     Prosecution Caseload: All Crime and Adult Rape
+2         nan       1.2  Prosecution Caseload - Magistrates Court - Nat...
+3         nan       1.3  Prosecution Caseload - Crown Court - National ...",../data/clean_csv/CPS-Court-Caseload-Tables-Q2-24-25.xlsx_Index.csv,nan Table Table Heading,columns set,"The dataset in document cps/CPS Caseload/CPS-Court-Caseload-Tables-Q2-24-25.xlsx contains information about Prosecution caseloads in Magistrates and Crown Courts in England and Wales. from 2023-Q1 to 2023-Q4. The dataset covers the following regions: England, Wales. The dataset has the following columns: Time Period, Case Type, Description. The dataset has the following aggregations: The dataset aggregates data by time periods (quarters) and case types, providing national-level statistics.. The dataset has the following description: The dataset contains information on prosecution caseloads in England and Wales, including data for Magistrates Court and Crown Court. It appears to include aggregated data for different types of cases and time periods."
+cps/CPS Caseload/CPS-Court-Caseload-Tables-Q2-24-25.xlsx,0x8DD46BB074A6A51,116131,../data/CPS-Court-Caseload-Tables-Q2-24-25.xlsx,1.1,5,1,"The dataset contains prosecution caseload data for Magistrates' and Crown Courts in England and Wales, including flagged cases and their outcomes. It provides monthly data on received, carried forward, and finalized cases, as well as specific data on adult rape flagged cases.","[nan, nan, nan, nan, nan, 'Month', ""Magistrates' & Crown Courts received"", ""Magistrates' & Crown Courts carried forward"", ""Magistrates' & Crown Courts finalized prosecutions"", 'Adult rape flagged cases received', 'Adult rape flagged cases carried forward', 'Adult rape flagged cases finalized prosecutions']",2019-Q2,2024-Q3,"['England', 'Wales']","Prosecution caseload data for Magistrates' and Crown Courts, including flagged cases and their outcomes.","The dataset aggregates data monthly, covering the number of cases received, carried forward, and finalized for both general crime and adult rape flagged cases.","                                                       5   \
+Unnamed: 0                                            nan   
+The following tables show flagged cases and the...  Month   
+Unnamed: 2                                          19-04   
+Unnamed: 3                                          19-05   
+Unnamed: 4                                          19-06   
+
+                                                                                      6   \
+Unnamed: 0                                                                           nan   
+The following tables show flagged cases and the...  Magistrates' & Crown Courts received   
+Unnamed: 2                                                                         43265   
+Unnamed: 3                                                                         45261   
+Unnamed: 4                                                                         41378   
+
+                                                                                             7   \
+Unnamed: 0                                                                                  nan   
+The following tables show flagged cases and the...  Magistrates' & Crown Courts carried forward   
+Unnamed: 2                                                                                98392   
+Unnamed: 3                                                                                99578   
+Unnamed: 4                                                                               100581   
+
+                                                                                                   8   \
+Unnamed: 0                                                                                        nan   
+The following tables show flagged cases and the...  Magistrates' & Crown Courts finalised prosecut...   
+Unnamed: 2                                                                                      38186   
+Unnamed: 3                                                                                      39950   
+Unnamed: 4                                                                                      37092   
+
+                                                                                                   10  \
+Unnamed: 0                                                                                        nan   
+The following tables show flagged cases and the...  Table 2 - Prosecution caseload: Adult rape fla...   
+Unnamed: 2                                                                                        nan   
+Unnamed: 3                                                                                        nan   
+Unnamed: 4                                                                                        nan   
+
+                                                       12  \
+Unnamed: 0                                            nan   
+The following tables show flagged cases and the...  Month   
+Unnamed: 2                                          19-04   
+Unnamed: 3                                          19-05   
+Unnamed: 4                                          19-06   
+
+                                                                                      13  \
+Unnamed: 0                                                                           nan   
+The following tables show flagged cases and the...  Magistrates' & Crown Courts received   
+Unnamed: 2                                                                           165   
+Unnamed: 3                                                                           149   
+Unnamed: 4                                                                           171   
+
+                                                                                             14  \
+Unnamed: 0                                                                                  nan   
+The following tables show flagged cases and the...  Magistrates' & Crown Courts carried forward   
+Unnamed: 2                                                                                  708   
+Unnamed: 3                                                                                  697   
+Unnamed: 4                                                                                  726   
+
+                                                                                                   15  
+Unnamed: 0                                                                                        nan  
+The following tables show flagged cases and the...  Magistrates' & Crown Courts finalised prosecut...  
+Unnamed: 2                                                                                        106  
+Unnamed: 3                                                                                         85  
+Unnamed: 4                                                                                         83  ",../data/clean_csv/CPS-Court-Caseload-Tables-Q2-24-25.xlsx_1.1.csv,nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan England & Wales - CPS court caseload tables: All crime and adult rape flagged [Note 1] nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan Table 1 - Prosecution caseload: All crime [Note 1] nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan,"complex or combined dataset, needs splitting and processing separately","The dataset in document cps/CPS Caseload/CPS-Court-Caseload-Tables-Q2-24-25.xlsx contains information about Prosecution caseload data for Magistrates' and Crown Courts, including flagged cases and their outcomes. from 2019-Q2 to 2024-Q3. The dataset covers the following regions: England, Wales. The dataset has the following columns: nan, nan, nan, nan, nan, Month, Magistrates' & Crown Courts received, Magistrates' & Crown Courts carried forward, Magistrates' & Crown Courts finalized prosecutions, Adult rape flagged cases received, Adult rape flagged cases carried forward, Adult rape flagged cases finalized prosecutions. The dataset has the following aggregations: The dataset aggregates data monthly, covering the number of cases received, carried forward, and finalized for both general crime and adult rape flagged cases.. The dataset has the following description: The dataset contains prosecution caseload data for Magistrates' and Crown Courts in England and Wales, including flagged cases and their outcomes. It provides monthly data on received, carried forward, and finalized cases, as well as specific data on adult rape flagged cases."
+cps/CPS Caseload/CPS-Court-Caseload-Tables-Q2-24-25.xlsx,0x8DD46BB074A6A51,116131,../data/CPS-Court-Caseload-Tables-Q2-24-25.xlsx,1.2,4,1,"The dataset contains quarterly court caseload statistics for England and Wales, broken down by CPS (Crown Prosecution Service) areas and divisions. It includes data on the number of cases received, completed, and other related metrics over multiple time periods.","[nan, 'CPS Area', '19-04', '19-05', '19-06', '19-07', '19-08', '19-09', '19-10', '19-11', '19-12', '20-01', '20-02', '20-03', '20-04', '20-05', '20-06', '20-07', '20-08', '20-09', '20-10', '20-11', '20-12', '21-01', '21-02', '21-03', '21-04', '21-05', '21-06', '21-07', '21-08', '21-09', '21-10', '21-11', '21-12', '22-01', '22-02', '22-03', '22-04', '22-05', '22-06', '22-07', '22-08', '22-09', '22-10', '22-11', '22-12', '23-01', '23-02', '23-03', '23-04', '23-05', '23-06', '23-07', '23-08', '23-09', '23-10', '23-11', '23-12', '24-01', '24-02', '24-03', '24-04', '24-05', '24-06', '24-07', '24-08', '24-09']",2019-Q2,2024-Q3,"['England', 'Wales']",Quarterly court caseload statistics for CPS areas in England and Wales.,"The dataset aggregates data by CPS areas and divisions, providing quarterly counts of cases received, completed, and other related metrics.","   NaN                    CPS Area  19-04  19-05  19-06  19-07  19-08  19-09  \
+4  nan                    CPS Area  19-04  19-05  19-06  19-07  19-08  19-09   
+5  nan                    National  37628  39356  36160  39058  35643  34941   
+6  nan  Central Casework Divisions    180    152    214    185    137    185   
+7  nan                 Cymru Wales   2610   2703   2539   2763   2380   2420   
+8  nan               East Midlands   3319   3394   3119   3551   3001   3067   
+
+   19-10  19-11  ...  23-12  24-01  24-02  24-03  24-04  24-05  24-06  24-07  \
+4  19-10  19-11  ...  23-12  24-01  24-02  24-03  24-04  24-05  24-06  24-07   
+5  38584  36189  ...  32316  37252  34859  34442  37608  37740  35422  38353   
+6    242    147  ...     95    150    168    140    170    166    148    196   
+7   2590   2458  ...   1952   2277   1924   1966   2083   2076   1953   2290   
+8   3412   3104  ...   2787   3191   2980   2906   3200   3084   2942   3230   
+
+   24-08  24-09  
+4  24-08  24-09  
+5  36246  36558  
+6    174    155  
+7   2267   2139  
+8   3044   2920  
+
+[5 rows x 68 columns]",../data/clean_csv/CPS-Court-Caseload-Tables-Q2-24-25.xlsx_1.2.csv,nan England & Wales - CPS court caseload tables: Magistrates court - national and by CPS Area [Note 2] nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan Table 1 - All crime: Magistrates' courts received [Note 2] nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan,columns set,"The dataset in document cps/CPS Caseload/CPS-Court-Caseload-Tables-Q2-24-25.xlsx contains information about Quarterly court caseload statistics for CPS areas in England and Wales. from 2019-Q2 to 2024-Q3. The dataset covers the following regions: England, Wales. The dataset has the following columns: nan, CPS Area, 19-04, 19-05, 19-06, 19-07, 19-08, 19-09, 19-10, 19-11, 19-12, 20-01, 20-02, 20-03, 20-04, 20-05, 20-06, 20-07, 20-08, 20-09, 20-10, 20-11, 20-12, 21-01, 21-02, 21-03, 21-04, 21-05, 21-06, 21-07, 21-08, 21-09, 21-10, 21-11, 21-12, 22-01, 22-02, 22-03, 22-04, 22-05, 22-06, 22-07, 22-08, 22-09, 22-10, 22-11, 22-12, 23-01, 23-02, 23-03, 23-04, 23-05, 23-06, 23-07, 23-08, 23-09, 23-10, 23-11, 23-12, 24-01, 24-02, 24-03, 24-04, 24-05, 24-06, 24-07, 24-08, 24-09. The dataset has the following aggregations: The dataset aggregates data by CPS areas and divisions, providing quarterly counts of cases received, completed, and other related metrics.. The dataset has the following description: The dataset contains quarterly court caseload statistics for England and Wales, broken down by CPS (Crown Prosecution Service) areas and divisions. It includes data on the number of cases received, completed, and other related metrics over multiple time periods."
+cps/CPS Caseload/CPS-Court-Caseload-Tables-Q2-24-25.xlsx,0x8DD46BB074A6A51,116131,../data/CPS-Court-Caseload-Tables-Q2-24-25.xlsx,1.3,4,1,"The dataset contains information on CPS court caseloads across various regions in England and Wales, detailing the number of cases received and processed in Crown Courts over multiple time periods, aggregated by region and division.","[nan, 'CPS Area', '19-04', '19-05', '19-06', '19-07', '19-08', '19-09', '19-10', '19-11', '19-12', '20-01', '20-02', '20-03', '20-04', '20-05', '20-06', '20-07', '20-08', '20-09', '20-10', '20-11', '20-12', '21-01', '21-02', '21-03', '21-04', '21-05', '21-06', '21-07', '21-08', '21-09', '21-10', '21-11', '21-12', '22-01', '22-02', '22-03', '22-04', '22-05', '22-06', '22-07', '22-08', '22-09', '22-10', '22-11', '22-12', '23-01', '23-02', '23-03', '23-04', '23-05', '23-06', '23-07', '23-08', '23-09', '23-10', '23-11', '23-12', '24-01', '24-02', '24-03', '24-04', '24-05', '24-06', '24-07', '24-08', '24-09']",2019-Q2,2024-Q3,"['National', 'Central Casework Divisions', 'Cymru Wales', 'East Midlands', 'East of England', 'London North', 'London South', 'Merseyside & Cheshire', 'North East', 'North West', 'South East', 'South West', 'Thames and Chiltern', 'Wessex', 'West Midlands', 'Yorkshire & Humberside']","CPS court caseloads in England and Wales, broken down by region and time period.","The dataset aggregates the number of cases received and processed in Crown Courts by region and division, with data reported quarterly over multiple years.","   NaN                    CPS Area  19-04  19-05  19-06  19-07  19-08  19-09  \
+4  nan                    CPS Area  19-04  19-05  19-06  19-07  19-08  19-09   
+5  nan                    National   5637   5905   5218   6289   5467   5697   
+6  nan  Central Casework Divisions     29     73     55     50     41     45   
+7  nan                 Cymru Wales    336    345    325    348    301    306   
+8  nan               East Midlands    398    462    400    526    412    400   
+
+   19-10  19-11  ...  23-12  24-01  24-02  24-03  24-04  24-05  24-06  24-07  \
+4  19-10  19-11  ...  23-12  24-01  24-02  24-03  24-04  24-05  24-06  24-07   
+5   6301   5703  ...   5760   7067   6582   6746   7418   7194   6603   7774   
+6     71     63  ...     33     71     52     54     84     60     40     90   
+7    326    304  ...    306    372    336    351    390    365    351    412   
+8    472    478  ...    496    542    559    507    479    494    442    521   
+
+   24-08  24-09  
+4  24-08  24-09  
+5   7256   6889  
+6    117     60  
+7    423    375  
+8    497    443  
+
+[5 rows x 68 columns]",../data/clean_csv/CPS-Court-Caseload-Tables-Q2-24-25.xlsx_1.3.csv,nan England & Wales - CPS court caseload tables: Crown Court - national and by CPS Area  [Note 2] nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan Table 1 - All Crime: Crown Courts received [Note 2] nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan,columns set,"The dataset in document cps/CPS Caseload/CPS-Court-Caseload-Tables-Q2-24-25.xlsx contains information about CPS court caseloads in England and Wales, broken down by region and time period. from 2019-Q2 to 2024-Q3. The dataset covers the following regions: National, Central Casework Divisions, Cymru Wales, East Midlands, East of England, London North, London South, Merseyside & Cheshire, North East, North West, South East, South West, Thames and Chiltern, Wessex, West Midlands, Yorkshire & Humberside. The dataset has the following columns: nan, CPS Area, 19-04, 19-05, 19-06, 19-07, 19-08, 19-09, 19-10, 19-11, 19-12, 20-01, 20-02, 20-03, 20-04, 20-05, 20-06, 20-07, 20-08, 20-09, 20-10, 20-11, 20-12, 21-01, 21-02, 21-03, 21-04, 21-05, 21-06, 21-07, 21-08, 21-09, 21-10, 21-11, 21-12, 22-01, 22-02, 22-03, 22-04, 22-05, 22-06, 22-07, 22-08, 22-09, 22-10, 22-11, 22-12, 23-01, 23-02, 23-03, 23-04, 23-05, 23-06, 23-07, 23-08, 23-09, 23-10, 23-11, 23-12, 24-01, 24-02, 24-03, 24-04, 24-05, 24-06, 24-07, 24-08, 24-09. The dataset has the following aggregations: The dataset aggregates the number of cases received and processed in Crown Courts by region and division, with data reported quarterly over multiple years.. The dataset has the following description: The dataset contains information on CPS court caseloads across various regions in England and Wales, detailing the number of cases received and processed in Crown Courts over multiple time periods, aggregated by region and division."
+cps/CPS Caseload/CPS-Court-Caseload-Tables-Q3-23-24.xlsx,0x8DD46BB0634B44F,83241,../data/CPS-Court-Caseload-Tables-Q3-23-24.xlsx,1.1,5,1,"The dataset contains information on flagged cases and their outcomes in Magistrates' and Crown Courts in England and Wales. It includes data on prosecution caseloads, such as cases received, carried forward, and finalized, with a focus on adult rape flagged cases. The dataset spans multiple time periods and provides aggregated counts for each quarter.","['Month', 'Month', 'Month', 'Month', 'Month', ""Magistrates' & Crown Courts received"", ""Magistrates' & Crown Courts carried forward"", ""Magistrates' & Crown Courts finalized prosecutions"", 'Additional columns for time periods (e.g., 19-04 to 23-12)']",19-04,23-12,"['England', 'Wales']","Prosecution caseloads and outcomes in Magistrates' and Crown Courts, with a focus on flagged cases.","The dataset aggregates data by quarter, providing counts of cases received, carried forward, and finalized for each time period.","                                                    Month  \
+The following tables show flagged cases and the...  Month   
+Unnamed: 1                                          19-04   
+Unnamed: 2                                          19-05   
+Unnamed: 3                                          19-06   
+Unnamed: 4                                          19-07   
+
+                                                                                   Month  \
+The following tables show flagged cases and the...  Magistrates' & Crown Courts received   
+Unnamed: 1                                                                         43265   
+Unnamed: 2                                                                         45261   
+Unnamed: 3                                                                         41378   
+Unnamed: 4                                                                         45347   
+
+                                                                                          Month  \
+The following tables show flagged cases and the...  Magistrates' & Crown Courts carried forward   
+Unnamed: 1                                                                                98392   
+Unnamed: 2                                                                                99578   
+Unnamed: 3                                                                               100581   
+Unnamed: 4                                                                                98556   
+
+                                                                                                Month  \
+The following tables show flagged cases and the...  Magistrates' & Crown Courts finalised prosecut...   
+Unnamed: 1                                                                                      38186   
+Unnamed: 2                                                                                      39950   
+Unnamed: 3                                                                                      37092   
+Unnamed: 4                                                                                      43028   
+
+                                                                                                Month  \
+The following tables show flagged cases and the...  Table 2 - Prosecution caseload: Adult rape fla...   
+Unnamed: 1                                                                                        nan   
+Unnamed: 2                                                                                        nan   
+Unnamed: 3                                                                                        nan   
+Unnamed: 4                                                                                        nan   
+
+                                                   Magistrates' & Crown Courts received  \
+The following tables show flagged cases and the...                                Month   
+Unnamed: 1                                                                        19-04   
+Unnamed: 2                                                                        19-05   
+Unnamed: 3                                                                        19-06   
+Unnamed: 4                                                                        19-07   
+
+                                                   Magistrates' & Crown Courts carried forward  \
+The following tables show flagged cases and the...        Magistrates' & Crown Courts received   
+Unnamed: 1                                                                                 165   
+Unnamed: 2                                                                                 149   
+Unnamed: 3                                                                                 171   
+Unnamed: 4                                                                                 159   
+
+                                                   Magistrates' & Crown Courts finalized prosecutions  \
+The following tables show flagged cases and the...        Magistrates' & Crown Courts carried forward   
+Unnamed: 1                                                                                        708   
+Unnamed: 2                                                                                        697   
+Unnamed: 3                                                                                        726   
+Unnamed: 4                                                                                        717   
+
+                                                   Additional columns for time periods (e.g., 19-04 to 23-12)  
+The following tables show flagged cases and the...  Magistrates' & Crown Courts finalised prosecut...          
+Unnamed: 1                                                                                        106          
+Unnamed: 2                                                                                         85          
+Unnamed: 3                                                                                         83          
+Unnamed: 4                                                                                         96          ",../data/clean_csv/CPS-Court-Caseload-Tables-Q3-23-24.xlsx_1.1.csv,nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan England & Wales - CPS court caseload tables: All crime and adult rape flagged [Note 1] nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan Table 1 - Prosecution caseload: All crime [Note 1] nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan,source file transposed,"The dataset in document cps/CPS Caseload/CPS-Court-Caseload-Tables-Q3-23-24.xlsx contains information about Prosecution caseloads and outcomes in Magistrates' and Crown Courts, with a focus on flagged cases. from 19-04 to 23-12. The dataset covers the following regions: England, Wales. The dataset has the following columns: Month, Month, Month, Month, Month, Magistrates' & Crown Courts received, Magistrates' & Crown Courts carried forward, Magistrates' & Crown Courts finalized prosecutions, Additional columns for time periods (e.g., 19-04 to 23-12). The dataset has the following aggregations: The dataset aggregates data by quarter, providing counts of cases received, carried forward, and finalized for each time period.. The dataset has the following description: The dataset contains information on flagged cases and their outcomes in Magistrates' and Crown Courts in England and Wales. It includes data on prosecution caseloads, such as cases received, carried forward, and finalized, with a focus on adult rape flagged cases. The dataset spans multiple time periods and provides aggregated counts for each quarter."
+cps/CPS Caseload/CPS-Court-Caseload-Tables-Q3-23-24.xlsx,0x8DD46BB0634B44F,83241,../data/CPS-Court-Caseload-Tables-Q3-23-24.xlsx,1.2,3,0,"The dataset contains court caseload statistics for Magistrates' courts in England and Wales, broken down by CPS (Crown Prosecution Service) areas and time periods. It includes data on the number of cases received, completed, and other related metrics over multiple years and quarters.","['CPS Area', 'CPS Area', '19-04', '19-05', '19-06', '19-07', '19-08', '19-09', '19-10', '19-11', '19-12', '20-01', '20-02', '20-03', '20-04', '20-05', '20-06', '20-07', '20-08', '20-09', '20-10', '20-11', '20-12', '21-01', '21-02', '21-03', '21-04', '21-05', '21-06', '21-07', '21-08', '21-09', '21-10', '21-11', '21-12', '22-01', '22-02', '22-03', '22-04', '22-05', '22-06', '22-07', '22-08', '22-09', '22-10', '22-11', '22-12', '23-01', '23-02', '23-03', '23-04', '23-05', '23-06', '23-07', '23-08', '23-09', '23-10', '23-11', '23-12']",2019-Q2,2023-Q4,"['England', 'Wales']",Court caseload statistics for Magistrates' courts in England and Wales by CPS area.,"The dataset aggregates data by CPS areas and time periods (quarters), providing counts of cases received, completed, and other related metrics.","                     CPS Area CPS Area  19-04  19-05  19-06  19-07  19-08  \
+3                    CPS Area    19-04  19-05  19-06  19-07  19-08  19-09   
+4                    National    37628  39356  36160  39058  35643  34941   
+5  Central Casework Divisions      180    152    214    185    137    185   
+6                 Cymru Wales     2610   2703   2539   2763   2380   2420   
+7               East Midlands     3319   3394   3119   3551   3001   3067   
+
+   19-09  19-10  19-11  ...  23-03  23-04  23-05  23-06  23-07  23-08  23-09  \
+3  19-10  19-11  19-12  ...  23-04  23-05  23-06  23-07  23-08  23-09  23-10   
+4  38584  36189  34405  ...  30894  33827  33942  34704  34404  32872  35266   
+5    242    147    142  ...    153    173    152    163    176    155    181   
+6   2590   2458   2558  ...   2013   2167   2144   2267   2179   1985   2012   
+7   3412   3104   3039  ...   2809   3157   3125   3104   3286   2950   3239   
+
+   23-10  23-11 23-12  
+3  23-11  23-12   nan  
+4  35313  32316   nan  
+5    197     95   nan  
+6   1987   1952   nan  
+7   3119   2787   nan  
+
+[5 rows x 59 columns]",../data/clean_csv/CPS-Court-Caseload-Tables-Q3-23-24.xlsx_1.2.csv,nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan Table 1 - All crime: Magistrates' courts received [Note 2] nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan,columns set,"The dataset in document cps/CPS Caseload/CPS-Court-Caseload-Tables-Q3-23-24.xlsx contains information about Court caseload statistics for Magistrates' courts in England and Wales by CPS area. from 2019-Q2 to 2023-Q4. The dataset covers the following regions: England, Wales. The dataset has the following columns: CPS Area, CPS Area, 19-04, 19-05, 19-06, 19-07, 19-08, 19-09, 19-10, 19-11, 19-12, 20-01, 20-02, 20-03, 20-04, 20-05, 20-06, 20-07, 20-08, 20-09, 20-10, 20-11, 20-12, 21-01, 21-02, 21-03, 21-04, 21-05, 21-06, 21-07, 21-08, 21-09, 21-10, 21-11, 21-12, 22-01, 22-02, 22-03, 22-04, 22-05, 22-06, 22-07, 22-08, 22-09, 22-10, 22-11, 22-12, 23-01, 23-02, 23-03, 23-04, 23-05, 23-06, 23-07, 23-08, 23-09, 23-10, 23-11, 23-12. The dataset has the following aggregations: The dataset aggregates data by CPS areas and time periods (quarters), providing counts of cases received, completed, and other related metrics.. The dataset has the following description: The dataset contains court caseload statistics for Magistrates' courts in England and Wales, broken down by CPS (Crown Prosecution Service) areas and time periods. It includes data on the number of cases received, completed, and other related metrics over multiple years and quarters."
+cps/CPS Caseload/CPS-Court-Caseload-Tables-Q3-23-24.xlsx,0x8DD46BB0634B44F,83241,../data/CPS-Court-Caseload-Tables-Q3-23-24.xlsx,1.3,3,0,"The dataset contains quarterly caseload statistics for Crown Courts in England and Wales, broken down by CPS areas and covering various time periods. It includes data on the number of cases received, processed, and other related metrics.","['CPS Area', '19-04', '19-05', '19-06', '19-07', '19-08', '19-09', '19-10', '19-11', '19-12', '20-01', '20-02', '20-03', '20-04', '20-05', '20-06', '20-07', '20-08', '20-09', '20-10', '20-11', '20-12', '21-01', '21-02', '21-03', '21-04', '21-05', '21-06', '21-07', '21-08', '21-09', '21-10', '21-11', '21-12', '22-01', '22-02', '22-03', '22-04', '22-05', '22-06', '22-07', '22-08', '22-09', '22-10', '22-11', '22-12', '23-01', '23-02', '23-03', '23-04', '23-05', '23-06', '23-07', '23-08', '23-09', '23-10', '23-11', '23-12']",2019-Q2,2023-Q4,"['England', 'Wales']","Quarterly caseload statistics for Crown Courts in England and Wales, broken down by CPS areas.","The dataset aggregates data by CPS areas and quarters, providing counts of cases received and processed for each time period.","                     CPS Area  19-04  19-05  19-06  19-07  19-08  19-09  \
+3                    CPS Area  19-04  19-05  19-06  19-07  19-08  19-09   
+4                    National   5637   5905   5218   6289   5467   5697   
+5  Central Casework Divisions     29     73     55     50     41     45   
+6                 Cymru Wales    336    345    325    348    301    306   
+7               East Midlands    398    462    400    526    412    400   
+
+   19-10  19-11  19-12  ...  23-03  23-04  23-05  23-06  23-07  23-08  23-09  \
+3  19-10  19-11  19-12  ...  23-03  23-04  23-05  23-06  23-07  23-08  23-09   
+4   6301   5703   5344  ...   6536   5662   6569   6548   6339   6779   6163   
+5     71     63     43  ...     75     69     53     68     81     79     87   
+6    326    304    289  ...    416    346    391    298    321    394    352   
+7    472    478    421  ...    527    420    538    483    466    502    456   
+
+   23-10  23-11  23-12  
+3  23-10  23-11  23-12  
+4   6625   6690   5760  
+5     59     71     33  
+6    340    335    306  
+7    536    468    496  
+
+[5 rows x 58 columns]",../data/clean_csv/CPS-Court-Caseload-Tables-Q3-23-24.xlsx_1.3.csv,nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan Table 1 - All Crime: Crown Courts received [Note 2] nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan,columns set,"The dataset in document cps/CPS Caseload/CPS-Court-Caseload-Tables-Q3-23-24.xlsx contains information about Quarterly caseload statistics for Crown Courts in England and Wales, broken down by CPS areas. from 2019-Q2 to 2023-Q4. The dataset covers the following regions: England, Wales. The dataset has the following columns: CPS Area, 19-04, 19-05, 19-06, 19-07, 19-08, 19-09, 19-10, 19-11, 19-12, 20-01, 20-02, 20-03, 20-04, 20-05, 20-06, 20-07, 20-08, 20-09, 20-10, 20-11, 20-12, 21-01, 21-02, 21-03, 21-04, 21-05, 21-06, 21-07, 21-08, 21-09, 21-10, 21-11, 21-12, 22-01, 22-02, 22-03, 22-04, 22-05, 22-06, 22-07, 22-08, 22-09, 22-10, 22-11, 22-12, 23-01, 23-02, 23-03, 23-04, 23-05, 23-06, 23-07, 23-08, 23-09, 23-10, 23-11, 23-12. The dataset has the following aggregations: The dataset aggregates data by CPS areas and quarters, providing counts of cases received and processed for each time period.. The dataset has the following description: The dataset contains quarterly caseload statistics for Crown Courts in England and Wales, broken down by CPS areas and covering various time periods. It includes data on the number of cases received, processed, and other related metrics."
+cps/Prosecution tables/Prosecution Data Tables Year Ending December 2020.xlsx,0x8DD46BB3096DE7F,25198,../data/Prosecution Data Tables Year Ending December 2020.xlsx,1.1,2,1,"The dataset contains quarterly statistics on Crown Prosecution Service (CPS) prosecutions in England and Wales, including metrics such as convictions, non-convictions, and total completed prosecutions, along with their percentages. It also includes rolling year-to-date summaries.","['Quarter', 'Convictions', '% Convictions', 'Non-Convictions', '% Non-Convictions', 'Total Completed Prosecutions', 'Rolling Year to Date']",19/20-Q4,20/21-Q3,"['England', 'Wales']",Quarterly statistics on CPS prosecutions in England and Wales.,"The dataset aggregates prosecution data by quarter and provides rolling year-to-date summaries for metrics such as convictions, non-convictions, and total completed prosecutions.","  Quarter        Convictions % Convictions Non-Convictions % Non-Convictions  \
+2     nan            Quarter      19/20-Q4        20/21-Q1          20/21-Q2   
+3     nan        Convictions         90959           32331             87697   
+4     nan      % Convictions         84.6%           77.9%             87.4%   
+5     nan    Non-Convictions         16538            9177             12680   
+6     nan  % Non-Convictions         15.4%           22.1%             12.6%   
+
+  Total Completed Prosecutions  Rolling Year to Date  
+2                     20/21-Q3  Rolling Year to Date  
+3                        98790                309777  
+4                        83.4%                 84.2%  
+5                        19670                 58065  
+6                        16.6%                 15.8%  ",../data/clean_csv/Prosecution Data Tables Year Ending December 2020.xlsx_1.1.csv,nan England & Wales - CPS Prosecutions nan nan nan nan nan nan nan nan nan nan nan nan,columns set,"The dataset in document cps/Prosecution tables/Prosecution Data Tables Year Ending December 2020.xlsx contains information about Quarterly statistics on CPS prosecutions in England and Wales. from 19/20-Q4 to 20/21-Q3. The dataset covers the following regions: England, Wales. The dataset has the following columns: Quarter, Convictions, % Convictions, Non-Convictions, % Non-Convictions, Total Completed Prosecutions, Rolling Year to Date. The dataset has the following aggregations: The dataset aggregates prosecution data by quarter and provides rolling year-to-date summaries for metrics such as convictions, non-convictions, and total completed prosecutions.. The dataset has the following description: The dataset contains quarterly statistics on Crown Prosecution Service (CPS) prosecutions in England and Wales, including metrics such as convictions, non-convictions, and total completed prosecutions, along with their percentages. It also includes rolling year-to-date summaries."
+cps/Prosecution tables/Prosecution Data Tables Year Ending December 2020.xlsx,0x8DD46BB3096DE7F,25198,../data/Prosecution Data Tables Year Ending December 2020.xlsx,1.2,2,1,"The dataset contains quarterly statistics on Crown Prosecution Service (CPS) prosecutions in England and Wales, including metrics such as convictions, non-convictions, and other prosecution outcomes. It also includes percentage breakdowns and rolling year-to-date summaries.","[nan, 'Quarter', 'Convictions', 'Guilty Pleas', 'Convictions after Trial', 'Proved in Absence', 'Non-Convictions', 'Prosecutions Dropped', 'Acquitted/Dismissed after Trial', 'Administratively Finalised', 'Discharged', 'Total Completed Prosecutions', '% Convictions', '% Guilty Pleas', '% Convictions after Trial', '% Proved in Absence', '% Non-Convictions', '% Acquitted/Dismissed after Trial', '% Administratively Finalised', '% Discharged']",19/20-Q4,20/21-Q3,"['England', 'Wales']",Quarterly statistics on CPS prosecutions and outcomes in England and Wales.,"The dataset aggregates prosecution outcomes by quarter, providing counts and percentages for various metrics such as convictions, non-convictions, and other outcomes. It also includes rolling year-to-date summaries.","                  2            3             4                        5   \
+Unnamed: 0       nan          nan           nan                      nan   
+Unnamed: 1   Quarter  Convictions  Guilty Pleas  Convictions after Trial   
+Unnamed: 2  19/20-Q4        90959         84317                     5473   
+Unnamed: 3  20/21-Q1        32331         31326                      868   
+Unnamed: 4  20/21-Q2        87697         84164                     2758   
+
+                           6                7                     8   \
+Unnamed: 0                nan              nan                   nan   
+Unnamed: 1  Proved in Absence  Non-Convictions  Prosecutions Dropped   
+Unnamed: 2               1169            16538                 10634   
+Unnamed: 3                137             9177                  5999   
+Unnamed: 4                775            12680                 10232   
+
+                                         9                           10  \
+Unnamed: 0                              nan                         nan   
+Unnamed: 1  Acquitted/Dismissed after Trial  Administratively Finalised   
+Unnamed: 2                             3213                        2690   
+Unnamed: 3                              341                        2836   
+Unnamed: 4                             1741                         704   
+
+                     11  ...             15              16  \
+Unnamed: 0          nan  ...            nan             nan   
+Unnamed: 1  Discharged   ...  % Convictions  % Guilty Pleas   
+Unnamed: 2            1  ...          84.6%           78.4%   
+Unnamed: 3            1  ...          77.9%           75.5%   
+Unnamed: 4            3  ...          87.4%           83.8%   
+
+                                   17                   18                 19  \
+Unnamed: 0                        nan                  nan                nan   
+Unnamed: 1  % Convictions after Trial  % Proved in Absence  % Non-Convictions   
+Unnamed: 2                       5.1%                 1.1%              15.4%   
+Unnamed: 3                       2.1%                  .3%              22.1%   
+Unnamed: 4                       2.7%                  .8%              12.6%   
+
+                                20                                 21  \
+Unnamed: 0                     nan                                nan   
+Unnamed: 1  % Prosecutions Dropped  % Acquitted/Dismissed after Trial   
+Unnamed: 2                    9.9%                               3.0%   
+Unnamed: 3                   14.5%                                .8%   
+Unnamed: 4                   10.2%                               1.7%   
+
+                                      22             23  \
+Unnamed: 0                           nan            nan   
+Unnamed: 1  % Administratively Finalised  % Discharged    
+Unnamed: 2                          2.5%           0.0%   
+Unnamed: 3                          6.8%           0.0%   
+Unnamed: 4                           .7%           0.0%   
+
+                                                           25  
+Unnamed: 0                                                nan  
+Unnamed: 1  PROSECUTION CASELOAD\n\nCrown Prosecution Serv...  
+Unnamed: 2                                                nan  
+Unnamed: 3                                                nan  
+Unnamed: 4                                                nan  
+
+[5 rows x 22 columns]",../data/clean_csv/Prosecution Data Tables Year Ending December 2020.xlsx_1.2.csv,nan England & Wales - CPS Prosecutions nan nan nan nan nan nan nan nan nan nan nan nan,"complex or combined dataset, needs splitting and processing separately","The dataset in document cps/Prosecution tables/Prosecution Data Tables Year Ending December 2020.xlsx contains information about Quarterly statistics on CPS prosecutions and outcomes in England and Wales. from 19/20-Q4 to 20/21-Q3. The dataset covers the following regions: England, Wales. The dataset has the following columns: nan, Quarter, Convictions, Guilty Pleas, Convictions after Trial, Proved in Absence, Non-Convictions, Prosecutions Dropped, Acquitted/Dismissed after Trial, Administratively Finalised, Discharged, Total Completed Prosecutions, % Convictions, % Guilty Pleas, % Convictions after Trial, % Proved in Absence, % Non-Convictions, % Acquitted/Dismissed after Trial, % Administratively Finalised, % Discharged. The dataset has the following aggregations: The dataset aggregates prosecution outcomes by quarter, providing counts and percentages for various metrics such as convictions, non-convictions, and other outcomes. It also includes rolling year-to-date summaries.. The dataset has the following description: The dataset contains quarterly statistics on Crown Prosecution Service (CPS) prosecutions in England and Wales, including metrics such as convictions, non-convictions, and other prosecution outcomes. It also includes percentage breakdowns and rolling year-to-date summaries."
+cps/Prosecution tables/Prosecution-Data-Tables-Q2-24-25.xlsx,0x8DD46BB315A8AF5,94104,../data/Prosecution-Data-Tables-Q2-24-25.xlsx,1.2,2,1,"The dataset provides statistics on prosecutions, convictions, and non-convictions in England and Wales, broken down by quarter and aggregated over a rolling year-to-date period. It includes both absolute numbers and percentages for each category.","['Quarter', 'Total completed prosecutions', 'Convictions', '% Convictions', 'Non-convictions', '% Non-convictions', 'Rolling year to date']",23/24-Q3,24/25-Q2,"['England', 'Wales']","The dataset focuses on criminal justice outcomes, specifically prosecutions, convictions, and non-convictions in England and Wales.","The dataset aggregates data by quarter and provides rolling year-to-date totals for prosecutions, convictions, and non-convictions, along with their respective percentages.","  Quarter  Total completed prosecutions Convictions % Convictions  \
+2     nan                       Quarter    23/24-Q3      23/24-Q4   
+3     nan  Total completed prosecutions      104195        109841   
+4     nan                   Convictions       85882         90963   
+5     nan                 % Convictions       82.4%         82.8%   
+6     nan               Non-convictions       18313         18878   
+
+  Non-convictions % Non-convictions  Rolling year to date  
+2        24/25-Q1          24/25-Q2  Rolling year to date  
+3          108620            111670                434326  
+4           90479             92502                359826  
+5           83.3%             82.8%                 82.8%  
+6           18141             19168                 74500  ",../data/clean_csv/Prosecution-Data-Tables-Q2-24-25.xlsx_1.2.csv,nan England & Wales Prosecutions: Convictions/Non-convictions [Note 2]  nan nan nan nan nan nan nan nan nan nan nan nan,columns set,"The dataset in document cps/Prosecution tables/Prosecution-Data-Tables-Q2-24-25.xlsx contains information about The dataset focuses on criminal justice outcomes, specifically prosecutions, convictions, and non-convictions in England and Wales. from 23/24-Q3 to 24/25-Q2. The dataset covers the following regions: England, Wales. The dataset has the following columns: Quarter, Total completed prosecutions, Convictions, % Convictions, Non-convictions, % Non-convictions, Rolling year to date. The dataset has the following aggregations: The dataset aggregates data by quarter and provides rolling year-to-date totals for prosecutions, convictions, and non-convictions, along with their respective percentages.. The dataset has the following description: The dataset provides statistics on prosecutions, convictions, and non-convictions in England and Wales, broken down by quarter and aggregated over a rolling year-to-date period. It includes both absolute numbers and percentages for each category."
+cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx,0x8DD46BB31F4226F,52265,../data/Prosecution-Data-Tables-Q3-23-24.xlsx,Index,1,1,"The dataset contains information on prosecutions, convictions, and non-convictions in England and Wales, categorized by various factors such as offence types, outcome types, and disclosure reasons. It appears to be structured for analysis of criminal justice data.","[nan, 'Table Number', 'Description']",2023-Q1,2023-Q4,"['England', 'Wales']","The dataset focuses on criminal justice statistics, specifically prosecutions and their outcomes in England and Wales.","The dataset is aggregated by table numbers, with each table representing a specific category or type of prosecution data, such as offence categories, outcome types, and reasons for non-convictions.","   NaN Table Number                                        Description
+1  nan          1.1  England & Wales - Offences Charged and Reachin...
+2  nan          1.2  Prosecutions: Convictions/Non-Convictions - CP...
+3  nan          1.3  Prosecutions: By Outcome Types - CPS England &...
+4  nan          1.4  Prosecutions: Outcome Types - Magistrates' Courts
+5  nan          1.5          Prosecutions: Outcome Types - Crown Court",../data/clean_csv/Prosecution-Data-Tables-Q3-23-24.xlsx_Index.csv,nan Table Table Heading,columns set with addition,"The dataset in document cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx contains information about The dataset focuses on criminal justice statistics, specifically prosecutions and their outcomes in England and Wales. from 2023-Q1 to 2023-Q4. The dataset covers the following regions: England, Wales. The dataset has the following columns: nan, Table Number, Description. The dataset has the following aggregations: The dataset is aggregated by table numbers, with each table representing a specific category or type of prosecution data, such as offence categories, outcome types, and reasons for non-convictions.. The dataset has the following description: The dataset contains information on prosecutions, convictions, and non-convictions in England and Wales, categorized by various factors such as offence types, outcome types, and disclosure reasons. It appears to be structured for analysis of criminal justice data."
+cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx,0x8DD46BB31F4226F,52265,../data/Prosecution-Data-Tables-Q3-23-24.xlsx,1.2,2,0,"The dataset provides quarterly statistics on prosecutions, convictions, and non-convictions in England and Wales, including percentages and rolling year-to-date figures. It covers data for four quarters and aggregates the total completed prosecutions, convictions, and non-convictions.","['Category', '22/23-Q4', '23/24-Q1', '23/24-Q2', '23/24-Q3', 'Rolling Year to Date']",22/23-Q4,23/24-Q3,"['England', 'Wales']",Quarterly prosecution and conviction statistics in England and Wales.,"The dataset aggregates data by quarter and provides rolling year-to-date totals for completed prosecutions, convictions, and non-convictions, along with their respective percentages.","                       Category 22/23-Q4 23/24-Q1 23/24-Q2 23/24-Q3  \
+2  Total completed prosecutions   103887   100289   105076   104195   
+3                   Convictions    85871    83007    87153    85882   
+4                 % Convictions    0.827    0.828    0.829    0.824   
+5               Non-convictions    18016    17282    17923    18313   
+6             % Non-convictions    0.173    0.172    0.171    0.176   
+
+  Rolling Year to Date  
+2               413447  
+3               341913  
+4                0.827  
+5                71534  
+6                0.173  ",../data/clean_csv/Prosecution-Data-Tables-Q3-23-24.xlsx_1.2.csv,nan nan nan nan nan nan Quarter 22/23-Q4 23/24-Q1 23/24-Q2 23/24-Q3 Rolling Year to Date,columns set,"The dataset in document cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx contains information about Quarterly prosecution and conviction statistics in England and Wales. from 22/23-Q4 to 23/24-Q3. The dataset covers the following regions: England, Wales. The dataset has the following columns: Category, 22/23-Q4, 23/24-Q1, 23/24-Q2, 23/24-Q3, Rolling Year to Date. The dataset has the following aggregations: The dataset aggregates data by quarter and provides rolling year-to-date totals for completed prosecutions, convictions, and non-convictions, along with their respective percentages.. The dataset has the following description: The dataset provides quarterly statistics on prosecutions, convictions, and non-convictions in England and Wales, including percentages and rolling year-to-date figures. It covers data for four quarters and aggregates the total completed prosecutions, convictions, and non-convictions."
+cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx,0x8DD46BB31F4226F,52265,../data/Prosecution-Data-Tables-Q3-23-24.xlsx,1.3,1,0,"The dataset provides a detailed breakdown of prosecution outcomes in England and Wales, including total prosecutions, convictions, non-convictions, and other outcomes, segmented by quarter and aggregated over rolling years.","['Outcome Type', '22/23-Q4', '23/24-Q1', '23/24-Q2', '23/24-Q3', 'Rolling Year to Date']",22/23-Q4,23/24-Q3,"['England', 'Wales']",Prosecution outcomes in England and Wales by type and time period.,"The dataset aggregates prosecution outcomes by type (e.g., convictions, non-convictions) and time periods (quarterly and rolling year).","                   Outcome Type  22/23-Q4  23/24-Q1  23/24-Q2  23/24-Q3  \
+1                       Quarter  22/23-Q4  23/24-Q1  23/24-Q2  23/24-Q3   
+2  Total completed prosecutions    103887    100289    105076    104195   
+3                   Convictions     85871     83007     87153     85882   
+4                 % Convictions     0.827     0.828     0.829     0.824   
+5                  Guilty pleas     79320     76894     80921     79535   
+
+   Rolling Year to Date  
+1  Rolling Year to Date  
+2                413447  
+3                341913  
+4                 0.827  
+5                316670  ",../data/clean_csv/Prosecution-Data-Tables-Q3-23-24.xlsx_1.3.csv,nan nan nan nan nan nan,columns set,"The dataset in document cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx contains information about Prosecution outcomes in England and Wales by type and time period. from 22/23-Q4 to 23/24-Q3. The dataset covers the following regions: England, Wales. The dataset has the following columns: Outcome Type, 22/23-Q4, 23/24-Q1, 23/24-Q2, 23/24-Q3, Rolling Year to Date. The dataset has the following aggregations: The dataset aggregates prosecution outcomes by type (e.g., convictions, non-convictions) and time periods (quarterly and rolling year).. The dataset has the following description: The dataset provides a detailed breakdown of prosecution outcomes in England and Wales, including total prosecutions, convictions, non-convictions, and other outcomes, segmented by quarter and aggregated over rolling years."
+cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx,0x8DD46BB31F4226F,52265,../data/Prosecution-Data-Tables-Q3-23-24.xlsx,1.4,2,0,"The dataset provides information on prosecution outcomes in magistrates' courts in England and Wales, including metrics such as total prosecutions, convictions, non-convictions, and other related statistics, broken down by quarter and rolling year-to-date.","['Outcome Type', '22/23-Q4', '23/24-Q1', '23/24-Q2', '23/24-Q3', 'Rolling Year to Date']",22/23-Q4,23/24-Q3,"['England', 'Wales']",Prosecution outcomes in magistrates' courts in England and Wales.,"The dataset aggregates prosecution outcomes by type (e.g., convictions, non-convictions) and time periods (quarterly and rolling year-to-date).","                   Outcome Type 22/23-Q4 23/24-Q1 23/24-Q2 23/24-Q3  \
+2  Total completed prosecutions    86572    83821    87606    85895   
+3                   Convictions    72384    70075    73582    71807   
+4                 % Convictions    0.836    0.836     0.84    0.836   
+5                  Guilty pleas    67058    65201    68593    66759   
+6                % Guilty pleas    0.775    0.778    0.783    0.777   
+
+  Rolling Year to Date  
+2               343894  
+3               287848  
+4                0.837  
+5               267611  
+6                0.778  ",../data/clean_csv/Prosecution-Data-Tables-Q3-23-24.xlsx_1.4.csv,nan nan nan nan nan nan Quarter 22/23-Q4 23/24-Q1 23/24-Q2 23/24-Q3 Rolling Year to Date,columns set,"The dataset in document cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx contains information about Prosecution outcomes in magistrates' courts in England and Wales. from 22/23-Q4 to 23/24-Q3. The dataset covers the following regions: England, Wales. The dataset has the following columns: Outcome Type, 22/23-Q4, 23/24-Q1, 23/24-Q2, 23/24-Q3, Rolling Year to Date. The dataset has the following aggregations: The dataset aggregates prosecution outcomes by type (e.g., convictions, non-convictions) and time periods (quarterly and rolling year-to-date).. The dataset has the following description: The dataset provides information on prosecution outcomes in magistrates' courts in England and Wales, including metrics such as total prosecutions, convictions, non-convictions, and other related statistics, broken down by quarter and rolling year-to-date."
+cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx,0x8DD46BB31F4226F,52265,../data/Prosecution-Data-Tables-Q3-23-24.xlsx,1.5,2,0,"The dataset provides statistics on prosecution outcomes in Crown Courts in England and Wales, including metrics such as convictions, non-convictions, guilty pleas, and other outcomes, broken down by quarter and aggregated over a rolling year-to-date period.","['Outcome Type', '22/23-Q4', '23/24-Q1', '23/24-Q2', '23/24-Q3', 'Rolling Year to Date']",22/23-Q4,23/24-Q3,"['England', 'Wales']",Prosecution outcomes in Crown Courts in England and Wales.,"The dataset aggregates prosecution outcomes by type (e.g., convictions, non-convictions) and provides quarterly data as well as a rolling year-to-date summary.","                   Outcome Type 22/23-Q4 23/24-Q1 23/24-Q2 23/24-Q3  \
+2  Total completed prosecutions    17315    16468    17470    18300   
+3                   Convictions    13487    12932    13571    14075   
+4                 % Convictions    0.779    0.785    0.777    0.769   
+5                  Guilty pleas    12262    11693    12328    12776   
+6                % Guilty pleas    0.708     0.71    0.706    0.698   
+
+  Rolling Year to Date  
+2                69553  
+3                54065  
+4                0.777  
+5                49059  
+6                0.705  ",../data/clean_csv/Prosecution-Data-Tables-Q3-23-24.xlsx_1.5.csv,nan nan nan nan nan nan Quarter 22/23-Q4 23/24-Q1 23/24-Q2 23/24-Q3 Rolling Year to Date,columns set,"The dataset in document cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx contains information about Prosecution outcomes in Crown Courts in England and Wales. from 22/23-Q4 to 23/24-Q3. The dataset covers the following regions: England, Wales. The dataset has the following columns: Outcome Type, 22/23-Q4, 23/24-Q1, 23/24-Q2, 23/24-Q3, Rolling Year to Date. The dataset has the following aggregations: The dataset aggregates prosecution outcomes by type (e.g., convictions, non-convictions) and provides quarterly data as well as a rolling year-to-date summary.. The dataset has the following description: The dataset provides statistics on prosecution outcomes in Crown Courts in England and Wales, including metrics such as convictions, non-convictions, guilty pleas, and other outcomes, broken down by quarter and aggregated over a rolling year-to-date period."
+cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx,0x8DD46BB31F4226F,52265,../data/Prosecution-Data-Tables-Q3-23-24.xlsx,2.1,3,0,"The dataset contains information on CPS (Crown Prosecution Service) prosecutions in England and Wales, categorized by principal offence types. It includes data on total prosecutions, convictions, non-convictions, and their respective percentages, broken down by quarters and rolling year-to-date summaries.","['Offence Category', '22/23-Q4', '23/24-Q1', '23/24-Q2', '23/24-Q3', 'Rolling Year to Date']",22/23-Q4,23/24-Q3,"['England', 'Wales']",The dataset focuses on the prosecution outcomes of criminal cases handled by the CPS in England and Wales.,"The dataset aggregates data by offence categories and time periods (quarters and rolling year-to-date), providing counts and percentages for convictions and non-convictions.","               Offence Category  22/23-Q4  23/24-Q1  23/24-Q2  23/24-Q3  \
+3                       Quarter  22/23-Q4  23/24-Q1  23/24-Q2  23/24-Q3   
+4  Total completed prosecutions       362       381       365       417   
+5                   Convictions       315       312       309       341   
+6                 Convictions %      0.87     0.819     0.847     0.818   
+7               Non-convictions        47        69        56        76   
+
+   Rolling Year to Date  
+3  Rolling Year to Date  
+4                  1525  
+5                  1277  
+6                 0.837  
+7                   248  ",../data/clean_csv/Prosecution-Data-Tables-Q3-23-24.xlsx_2.1.csv,nan nan nan nan nan nan A Homicide nan nan nan nan nan nan nan nan nan nan nan,columns set,"The dataset in document cps/Prosecution tables/Prosecution-Data-Tables-Q3-23-24.xlsx contains information about The dataset focuses on the prosecution outcomes of criminal cases handled by the CPS in England and Wales. from 22/23-Q4 to 23/24-Q3. The dataset covers the following regions: England, Wales. The dataset has the following columns: Offence Category, 22/23-Q4, 23/24-Q1, 23/24-Q2, 23/24-Q3, Rolling Year to Date. The dataset has the following aggregations: The dataset aggregates data by offence categories and time periods (quarters and rolling year-to-date), providing counts and percentages for convictions and non-convictions.. The dataset has the following description: The dataset contains information on CPS (Crown Prosecution Service) prosecutions in England and Wales, categorized by principal offence types. It includes data on total prosecutions, convictions, non-convictions, and their respective percentages, broken down by quarters and rolling year-to-date summaries."
